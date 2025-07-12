@@ -34,7 +34,6 @@ img{
     padding: 1em;
 }
 .container .list1 li{
-    content:"✅";
     margin: 1rem;
     background-color: #f39c12;
     border-radius: 50px;
