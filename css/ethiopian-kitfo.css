@@ -49,10 +49,63 @@ img{
     color: white;
 }
 .list1 a:visited{
-    background-color: greenyellow;
+    background-color:lightyellow;
     color: darkslategrey;
 }
 .list1 a:hover{
     background-color: indigo;
     color: yellow;
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lawngreen;
+    color: #000;
+    padding: 1rem;
+    margin: 1rem;
+    border:2px solid darkgreen;
+    border-radius: 50px;
+    width: 100%;
+}
+.container h1{
+    background-color: midnightblue;
+    color: lavender;
+    padding: 2rem;
+    margin: 1rem;
+}
+.container p,
+.container .list2,
+.container ol{
+    text-align: justify;
+    color:darkslategray;
+}
+.container .list2{
+    list-style: none;
+    padding: 0;
+}
+.container .list2 li{
+    position: relative;
+    padding-left: 1em;
+    margin-bottom: 0.5em;
+}
+.container .list2 li::before {
+  content: "✅";
+  color: coral;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 0.5em;
+}
+.container ol{
+    font-family: Georgia, 'Times New Roman', monospace;
+    margin-left: 0.5em;
+}
+#main-footer{
+    background-color: #98FF98;
+    color: #800000;
+    text-align: center;
+    margin: 2em;
+    padding: 2rem;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 900px;
 }
