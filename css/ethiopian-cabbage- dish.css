@@ -11,6 +11,7 @@ body{
     font-size: 25px;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    max-width: 100%;
 }
 .container{
     background: linear-gradient(to right, #c0392b, #f39c12);
@@ -25,8 +26,8 @@ body{
 img{
     max-width: 100%;
     border-radius: 12px;
-    margin: 2em;
-    display: block;
+    margin-left: auto;
+    margin-left: auto;
 }
 .container .list1{
     list-style: none;
@@ -66,6 +67,7 @@ img{
 .container h1{
     color: gold;
     padding: 2rem;
+    margin: 1rem;
 }
 .container p,
 .container .list2,
