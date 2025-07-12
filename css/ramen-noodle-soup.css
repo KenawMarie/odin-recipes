@@ -71,3 +71,40 @@ img{
     padding: 2rem;
     margin: 1rem;
 }
+.container p,
+.container .list2,
+.container ol{
+    text-align: justify;
+    color:#000;
+}
+.container .list2{
+    list-style: none;
+    padding: 0;
+}
+.container .list2 li{
+    position: relative;
+    padding-left: 1em;
+    margin-bottom: 0.5em;
+}
+.container .list2 li::before {
+  content: "✅";
+  color: coral;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 0.5em;
+}
+.container ol{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 0.5em;
+}
+#main-footer{
+    background-color: #98FF98;
+    color: #800000;
+    text-align: center;
+    margin: 2em;
+    padding: 2rem;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 900px;
+}
