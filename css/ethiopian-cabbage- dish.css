@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-image:url(../images/Injera_with_eight_kinds_of_stew.jpg);
+     margin: 2rem;
+    padding: 1.5rem;
+}
+.container{
+    background: linear-gradient(to right, #c0392b, #f39c12);
+    margin: 2em;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 40px;
+    max-width: 900px ;
+    width: 100%;
+    min-height: 400px;
+    font-size: 30px;
+    line-height: 2em;
+}
+.container .list1{
+    list-style: none;
+    padding: 1em;
+    /* margin: 1em; */
+    overflow-wrap:break-word ;
+}
+.container .list1 li{content:"✅";
+    margin: 1rem;
+    background-color: #f39c12;
+    border-radius: 50px;
+    max-width: 100%;
+}
+.container .list1 a{
+    padding: 0.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    display: block;
+    color: #006400;
+}
+.list a:visited{
+    background-color: lightgreen;
+    color: #008080;
+}
+.list1 a:hover{
+    background-color: brown;
+    color: #d3d3d3;
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: coral;
+    color: darkcyan;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 50px;
+}
+h1{
+    padding: 2rem;
+}
