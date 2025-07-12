@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image:url(../images/ramen-noodle-soup-bg.png);
+    margin: 2rem;
+    padding: 1.5rem;
+    font-size: 25px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+.container{
+    background: linear-gradient(to right, #f7971e, #ffd200);
+    margin: 2em;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 40px;
+    max-width: 900px ;
+    width: 100%;
+    line-height: 2em;
+}
+img{
+    max-width: 100%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-left: auto;
+}
+.container .list1{
+    list-style: none;
+    padding: 1em;
+}
+.container .list1 li{
+    margin: 1rem;
+    background-color: #000;
+    border-radius: 50px;
+    max-width: 100%;
+}
+.container .list1 a{
+    padding: 0.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.list1 a:visited{
+    background-color:lightyellow;
+    color: #5D3A00;
+}
+.list1 a:hover{
+    background-color: violet;
+    color: yellow;
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f00;
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 50px;
+    width: 100%;
+}
+.container h1{
+    background-color: #8B0000;
+    color: lavender;
+    padding: 2rem;
+    margin: 1rem;
+}
