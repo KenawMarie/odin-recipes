@@ -13,7 +13,7 @@ body{
     font-size: 25px;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    max-width: 100%
+    max-width: 100%;
 }
 .container{
     background: linear-gradient(to right, lightgreen, coral);
